@@ -64,11 +64,11 @@ export const VccCarouselMobile = ({ carList }: VccCarouselPropsType): JSX.Elemen
       />
 
       <Flex extend={{ alignItems: 'center', flexDirection: 'row', justifyContent: 'center' }}>
-        <Link href={`learn/${currentView.id}`} arrow='right'>
+        <Link href={`/learn/${currentView.id}`} arrow='right'>
           LEARN
         </Link>
         <Spacer />
-        <Link href={`shop/${currentView.id}`} arrow='right'>
+        <Link href={`/shop/${currentView.id}`} arrow='right'>
           SHOP
         </Link>
       </Flex>

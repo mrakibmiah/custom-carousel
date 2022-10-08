@@ -19,11 +19,11 @@ export const CarSpec = ({ carSpecification }: CarBoxPropsType): JSX.Element => (
     <Image width={1000} height={1000} src={carSpecification.imageUrl} alt={`Car ${carSpecification.id} image is missing`} />
 
     <Flex extend={{ alignItems: 'center', flexDirection: 'row', justifyContent: 'center' }}>
-      <Link href={`learn/${carSpecification.id}`} arrow='right'>
+      <Link href={`/learn/${carSpecification.id}`} arrow='right'>
         LEARN
       </Link>
       <Spacer />
-      <Link href={`shop/${carSpecification.id}`} arrow='right'>
+      <Link href={`/shop/${carSpecification.id}`} arrow='right'>
         SHOP
       </Link>
     </Flex>
