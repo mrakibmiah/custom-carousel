@@ -6,7 +6,7 @@ NextJs, ReactJs, VCC-UI
 
 ### Demo
 [Live Demo](https://custom-carousel-one.vercel.app/)
-**_NOTE:_** To check this on Mobile, open from mobile browser
+> **_NOTE:_** To check this on Mobile, open from mobile browser
 ### Setup
 clone the repository
 ```
@@ -40,5 +40,5 @@ npm start
 npm lint
 ```
 
-### Platform
-`Support both desktop and mobile`
+### Platform and Browsers
+`Support all modern browsers both desktop and mobile`
