@@ -13,6 +13,11 @@ export const VccCarousel: Function = ({ carList, itemsPerView = 4 }: VccCarousel
     setCurrentViewList(carList?.slice(currentPosition, itemsPerView + currentPosition))
   }, [currentPosition, carList, itemsPerView])
 
+  // reset the current position when car list changes
+  useEffect(() => {
+    setCurrentPosition(0)
+  }, [carList])
+
   if (!carList?.length || !itemsPerView) return <h2>Failed to load the VCC carousel. incorrect config</h2>
 
   const handleForward = () => {
