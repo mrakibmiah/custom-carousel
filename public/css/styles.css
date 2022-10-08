@@ -1,0 +1,19 @@
+.dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #bbb;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.active {
+  background-color: black;
+}
+label {
+  font-size: 0.7em !important;
+}
+input[type='checkbox'] {
+  width: 15px;
+  height: 15px;
+}
