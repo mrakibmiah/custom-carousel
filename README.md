@@ -9,7 +9,7 @@ NextJs, ReactJs, VCC-UI
 ### Setup
 clone the repository
 ```
-git clone
+git clone https://github.com/mrakibmiah/custom-carousel.git
 ```
 go to project directory
 
