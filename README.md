@@ -1,9 +1,11 @@
-# VCC custom Carousel to display car information
+# VCC custom Carousel to display images
 this plugin is responsible for displaying image with information in slideshow. user will be able to slide or swipe the image in both mobile and desktop. its a custom plugin, accept dynamic view. so you can configure number of images to be displayed.
 
 ### Tech Stack
 NextJs, ReactJs, VCC-UI
 
+### Demo
+[Live Demo](https://custom-carousel-one.vercel.app/)
 ### Setup
 clone the repository
 ```
