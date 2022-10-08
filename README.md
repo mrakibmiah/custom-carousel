@@ -6,10 +6,11 @@ NextJs, ReactJs, VCC-UI
 
 ### Demo
 [Live Demo](https://custom-carousel-one.vercel.app/)
+
 ### Setup
 clone the repository
 ```
-git clone
+git clone https://github.com/mrakibmiah/custom-carousel.git
 ```
 go to project directory
 
